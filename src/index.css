@@ -1,0 +1,29 @@
+html {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, 'Courier New', Courier, monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.App {
+  padding: 1rem;
+  font-size: 1.4rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  width: 30rem;
+}
+.card {
+  background-size: cover;
+  background-position: center;
+  background-color: lightgray;
+  margin-top: 5vh;
+  width: 30rem;
+}

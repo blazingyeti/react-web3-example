@@ -1,0 +1,39 @@
+{
+  "name": "react-web3-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "author": "natethor",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "ethers": "^5.4.7",
+    "react": "^17.0.1",
+    "react-bootstrap": "^2.1.2",
+    "react-dom": "^17.0.1",
+    "web-vitals": "^0.2.4",
+    "web3": "^1.5.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-scripts": "^4.0.1"
+  }
+}

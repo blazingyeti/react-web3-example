@@ -1,0 +1,12 @@
+# builds
+node_modules/
+build/
+package-lock.json
+yarn.lock
+
+# editors
+*.swp
+.idea/
+.vs/
+.vscode/
+.DS_Store
