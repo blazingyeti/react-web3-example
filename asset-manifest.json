@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-web3-example/static/css/main.1ebf45e6.css",
+    "main.js": "/react-web3-example/static/js/main.3b127fda.js",
+    "index.html": "/react-web3-example/index.html",
+    "main.1ebf45e6.css.map": "/react-web3-example/static/css/main.1ebf45e6.css.map",
+    "main.3b127fda.js.map": "/react-web3-example/static/js/main.3b127fda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ebf45e6.css",
+    "static/js/main.3b127fda.js"
+  ]
+}

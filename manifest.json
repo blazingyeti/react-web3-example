@@ -1,0 +1,8 @@
+{
+  "short_name": "React Web3 Example",
+  "name": "React Web3 Example",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
