@@ -17,13 +17,17 @@ body {
   justify-content: center;
 }
 
-.btn {
-  width: 30rem;
+.row {
+  justify-content: center;
 }
+
+.col {
+  align-content: center;
+}
+
 .card {
   background-size: cover;
   background-position: center;
   background-color: lightgray;
   margin-top: 5vh;
-  width: 30rem;
 }

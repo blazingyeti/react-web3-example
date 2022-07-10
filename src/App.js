@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { ethers } from "ethers";
-import { Container, Card, Button } from "react-bootstrap";
+import { Container, Card, Button, Row, Col } from "react-bootstrap";
 
 const App = () => {
   const [errorMessage, setErrorMessage] = useState(null);
@@ -59,30 +59,45 @@ const App = () => {
 
   if (errorMessage) {
     return (
-      <Container className="d-grid p-3">
-        <h1>React Web3 Example</h1>
-        <Button variant="dark" onClick={handleWalletConnect}>
-          {connButtonText}
-        </Button>
-        <p className="my-3">{errorMessage}</p>
+      <Container className="m-10 p-5">
+        <Col className="m-10 p-5">
+          <Row className="text-center">
+            <h1 className="py-3">React Web3 Example</h1>
+          </Row>
+          <Row className="px-3">
+            <Button variant="dark" onClick={handleWalletConnect}>
+              {connButtonText}
+            </Button>
+          </Row>
+          <Row className="px-3">
+            <p className="my-3">{errorMessage}</p>
+          </Row>
+        </Col>
       </Container>
     );
   }
 
   return (
-    <Container className="d-grid p-3">
-      <h1>React Web3 Example</h1>
-      {userAccount ? (
-        <Button variant="dark">{`${userAccount}`}</Button>
-      ) : (
-        <Button variant="dark" onClick={handleWalletConnect}>
-          {connButtonText}
-        </Button>
-      )}
-      <Card>
-        <Card.Body>Eth Balance: {userBalance}</Card.Body>
-      </Card>
-      {errorMessage}
+    <Container>
+      <Col className="m-10 p-5">
+        <Row className="text-center">
+          <h1 className="py-4">React Web3 Example</h1>
+        </Row>
+        <Row className="px-3">
+          {userAccount ? (
+            <Button variant="dark">{`${userAccount}`}</Button>
+          ) : (
+            <Button variant="dark" onClick={handleWalletConnect}>
+              {connButtonText}
+            </Button>
+          )}
+        </Row>
+        <Row className="px-3">
+          <Card>
+            <Card.Body>Eth Balance: {userBalance}</Card.Body>
+          </Card>
+        </Row>
+      </Col>
     </Container>
   );
 };
