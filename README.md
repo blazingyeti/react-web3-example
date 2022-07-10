@@ -2,6 +2,7 @@
 
 - Starter App for Web3 Eth Wallet connectivity in React using ethers library
 - Borrowed pieces of this code from a number of repos
+- Example here: [blazingyeti.github.io/react-web3-example](https://blazingyeti.github.io/react-web3-example/)
 
 ## Setup
 
